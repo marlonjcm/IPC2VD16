@@ -1,0 +1,14 @@
+¿Qué entiende como "commit"?
+	Cuando se realizan cambios en el proyecto y queremos documentarlo realizamos un "commit".
+	Esto agrega a nuestro repositorio una entrada en la que podemos observar los cambios que realizamos,
+	en nuestro repositorio podemos ver todos los "commit" que se han realizado sobre nuestro programa lo 
+	cual es útil para llevar un control de las funcionalidades agregadas o removidas del programa.
+
+¿Qué entiende como "merge"?
+	El "merge" es utilizado cuando se tienen dos ramas o "branches" de nuestro programa y queremos unificarlas.
+	Lo que hace es mostrarnos las diferencias entre las dos ramas y dejarnos escoger con cual deseamos quedarnos.
+	Esto unifica las dos ramas en una sola.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+	El "Pull" se utiliza para descargar el proyecto que se encuentra actualmente en nuestro repositorio remoto a nuestra PC local.
+	El "Push" se utiliza para cargar lo que tengamos local a nuestro repositorio en la nube.
