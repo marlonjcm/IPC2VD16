@@ -94,5 +94,32 @@ namespace HT1
 
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (entradaa.Text != "" && entradab.Text != "" && entradac.Text != "" && entradad.Text != "")
+            {
+                try
+                {
+                    double variable_a = double.Parse(entradaa.Text);
+                    double variable_b = double.Parse(entradab.Text);
+                    double variable_c = double.Parse(entradac.Text);
+                    double variable_d = double.Parse(entradad.Text);
+
+                    double operacion1 = variable_a + variable_c;
+                    double operacion2 = variable_b - variable_d;
+                    double operacion3 = Math.Sqrt(operacion1);
+                    double operacion4 = Math.Pow(operacion2, 2);
+                    double total = operacion3 * operacion4;
+
+                    respuesta.Text = total.ToString();
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Ingrese únicamente números");
+                }
+
+            }
+        }
     }
 }

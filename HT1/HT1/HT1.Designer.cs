@@ -140,12 +140,13 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(150, 219);
+            this.button4.Location = new System.Drawing.Point(125, 219);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.Size = new System.Drawing.Size(100, 23);
             this.button4.TabIndex = 11;
-            this.button4.Text = "button4";
+            this.button4.Text = "sqrt(a+c)*(b-c)^2";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label5
             // 
