@@ -112,10 +112,11 @@
             // 
             this.button1.Location = new System.Drawing.Point(31, 178);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(92, 23);
             this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
+            this.button1.Text = "[(a+b)^2]/(c+d)";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -181,6 +182,7 @@
             this.Controls.Add(this.label1);
             this.Name = "HT1";
             this.Text = "HT1";
+            this.Load += new System.EventHandler(this.HT1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

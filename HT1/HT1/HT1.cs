@@ -16,5 +16,34 @@ namespace HT1
         {
             InitializeComponent();
         }
+
+        private void HT1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+
+            if (entradaa.Text != "" && entradab.Text != "" && entradac.Text != "" && entradad.Text != "")
+            {
+                try
+                {
+                    double variable_a = double.Parse(entradaa.Text);
+                    double variable_b = double.Parse(entradab.Text);
+                    double variable_c = double.Parse(entradac.Text);
+                    double variable_d = double.Parse(entradad.Text);
+
+                    double operacion1 = variable_a + variable_b;
+                    double operacion2 = variable_c + variable_d;
+                    double operacion3 = operacion1 * operacion1;
+                    double total = operacion3 / operacion2;
+
+                    respuesta.Text = total.ToString();
+                } catch(Exception){
+                    MessageBox.Show("Ingrese únicamente números");
+                }
+
+            }
+        }
     }
 }
